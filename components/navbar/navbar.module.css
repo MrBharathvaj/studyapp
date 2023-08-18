@@ -1,0 +1,32 @@
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c5430;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 17px;
+}
+
+.logout {
+    font-size: 17px;
+    padding: 5px;
+    border: none;
+    background-color: #53c28b;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
