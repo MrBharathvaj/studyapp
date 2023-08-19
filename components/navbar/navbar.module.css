@@ -2,7 +2,7 @@
     height: 100px;
     display: flex;
     justify-content: space-between;
-    background-color: #0c5430;
+    /* background-color: #0c5430;             nav background color              */
     padding-right: 30px;
     padding-left: 30px;
 }

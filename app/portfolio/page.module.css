@@ -1,3 +1,47 @@
-.container_portfolio {
-    background-color: aquamarine;
+.container {}
+
+.title {
+    margin: 20px 0px;
+}
+
+.maintitle {
+    font-size: 100px;
+}
+
+.item {
+    display: flex;
+    gap: 50px;
+}
+
+.link {
+    border: 5px solid grey;
+    border-radius: 5px;
+    width: 280px;
+    height: 310px;
+    position: relative;
+    background-size: cover !important;
+}
+
+.link:nth-child(1) {
+    background: url("/firstchild.avif");
+}
+
+.link:nth-child(2) {
+    background: url("/secondchild.avif");
+}
+
+.link:nth-child(3) {
+    background: url("/thirdchild.jpg");
+}
+
+.project_title {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.link:hover .project_title {
+    color: #53b28c;
 }
