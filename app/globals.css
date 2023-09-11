@@ -1,29 +1,15 @@
 * {
+  @apply m-0 p-0;
   /* box-sizing: border-box; */
-  padding: 0;
-  margin: 0;
 }
-
 html,
 body {
-  max-width: 100vw;
-  overflow: hidden;
-  background-color: #111;
-  color: #bbb;
+  @apply max-w-[100vw] overflow-hidden bg-[#111] text-[#bbb];
 }
-
 a {
-  text-decoration: none;
-  color: inherit;
+  @apply no-underline text-inherit;
 }
-
 .container {
+  @apply max-w-[1366px] min-h-screen flex flex-col justify-between mx-auto my-0 px-[30px] py-0;
   /* background-color: rebeccapurple; */
-  max-width: 1366px;
-  min-height: 100vh;
-  margin: 0 auto;
-  padding: 0 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }

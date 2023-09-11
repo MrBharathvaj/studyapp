@@ -1,4 +1,41 @@
-.container {}
+
+.title {
+    @apply text-6xl text-center mb-[50px] mb-[30px] pt-[20x];
+    background: linear-gradient(to right, #dc2da7, #77c0d8, #91eb96);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .content {
+    @apply flex items-center gap-[100px];
+  }
+  .imgcontainer {
+    @apply flex-1 h-[350px] w-[250px] relative;
+  }
+  .form {
+    @apply flex-1 flex flex-col gap-0.5 h-[425px];
+  }
+  .input,
+  .textarea {
+    @apply bg-transparent text-[#bbb] text-xl font-[bold] p-2.5 border-[none] border-[3px] border-solid border-[#bbb];
+    outline: none;
+  }
+  .image {
+    @apply animate-[move_3s_infinite_ease_alternate];
+    /* object-fit: cover; */
+  }
+  @keyframes move {
+    from {
+      @apply translate-y-[-15px];
+    }
+    to {
+      @apply translate-y-0 scale-[1.03];
+    }
+  }
+  
+
+  /* ----------------------------------------------------------------------------------------------- */
+
+  /* .container {}
 
 .title {
     font-size: 60px;
@@ -46,10 +83,10 @@
 
 .image {
     /* object-fit: cover; */
-    animation: move 3s infinite ease alternate;
-}
+    /* animation: move 3s infinite ease alternate; */
+/* } */
 
-@keyframes move {
+/* @keyframes move {
     from {
         transform: translateY(-15px);
     }
@@ -57,4 +94,4 @@
     to {
         transform: translateY(0px) scale(1.03);
     }
-}
+} */ 

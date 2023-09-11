@@ -1,4 +1,36 @@
+
 .container {
+    @apply inset-x-0;
+  }
+  .cattitle {
+    @apply text-[#53c28b];
+  }
+  .item {
+    @apply flex gap-[50px] mt-0 mb-[50px];
+  }
+  .item:nth-child(2n + 1) {
+    @apply flex-row-reverse;
+  }
+  .imgcontainer {
+    @apply flex-1 h-[500px] relative mb-[100px] right-[30px] top-2.5;
+  }
+  .img {
+    @apply object-cover top-2.5;
+  }
+  .content {
+    @apply flex-1 flex flex-col gap-5 justify-center;
+  }
+  .title {
+    @apply text-[50px];
+  }
+  .description {
+    @apply text-xl;
+  }
+  
+
+
+/* ------------------------------------------------------------------------------------------------
+    .container {
     left: 0px;
     right: 0px;
 }
@@ -46,4 +78,4 @@
 
 .description {
     font-size: 20px;
-}
+} */

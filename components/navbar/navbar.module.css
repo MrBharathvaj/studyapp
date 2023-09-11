@@ -1,8 +1,22 @@
 .container {
+    @apply h-[100px] flex justify-between px-[30px];
+  }
+  .logo {
+    @apply flex items-center font-[bold] text-[22px];
+  }
+  .links {
+    @apply flex items-center gap-5 text-[17px];
+  }
+  .logout {
+    @apply text-[17px] bg-[#53c28b] text-[white] cursor-pointer p-[5px] rounded-[3px] border-[none];
+  }
+  
+
+/* -------------------------------------------------------------------------------------------------------------
+    .container {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    /* background-color: #0c5430;             nav background color              */
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -29,4 +43,4 @@
     color: white;
     cursor: pointer;
     border-radius: 3px;
-}
+} */

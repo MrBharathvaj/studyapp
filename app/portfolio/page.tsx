@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./page.module.css"
 import Link from 'next/link'
 
-const Portfolio = () => {
+const Portfolio: React.FC = () => {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>Choose The Project's</h1>

@@ -3,7 +3,13 @@ import React from 'react'
 import Link from 'next/link'
 import styles from "./navbar.module.css"
 
-const links = [
+interface linkitem{
+    id: number,
+    title: string,
+    url: string
+}
+
+const links: linkitem[] = [
     {
         id: 1,
         title: "Home",
@@ -36,7 +42,7 @@ const links = [
     }
 ]
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
     // console.log("Hello")
     return (
         <div className={styles.container}>
@@ -52,7 +58,7 @@ const Navbar = () => {
                 <button className={styles.logout} onClick={() => { console.log("Logged out") }}>Logout</button>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;

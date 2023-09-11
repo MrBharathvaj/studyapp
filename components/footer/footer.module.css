@@ -1,4 +1,15 @@
 .container {
+    @apply h-[50px] text-sm flex items-center justify-between pr-[15px];
+  }
+  .social {
+    @apply flex items-center gap-[30px];
+  }
+  .icon {
+    @apply opacity-60 cursor-pointer rounded-[50%];
+  }
+
+/* ----------------------------------------------------------------------------------------------------------
+    .container {
     height: 50px;
     font-size: 14px;
     display: flex;
@@ -17,4 +28,4 @@
     opacity: 0.6;
     cursor: pointer;
     border-radius: 50%;
-}
+} */

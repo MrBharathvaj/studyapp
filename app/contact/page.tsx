@@ -2,8 +2,8 @@ import React from 'react'
 import styles from "./page.module.css"
 import Image from 'next/image'
 import photo from "../../public/contact.jpg"
-import Button from '@/components/Button/Button'
-const Contact = () => {
+import Button from '../../components/Button/Button'
+const Contact: React.FC = () => {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}><i>Let's Keep in Touch</i></h1>
@@ -16,7 +16,7 @@ const Contact = () => {
                     <br />
                     <input type="text" placeholder="email" className={styles.input} />
                     <br />
-                    <textarea className={styles.textarea} placeholder="Enter Message" cols="30" rows="10"></textarea>
+                    <textarea className={styles.textarea} placeholder="Enter Message" cols={30} rows={10}></textarea>
                     <br />
                     <Button url="#" text="Submit" />
                 </form>

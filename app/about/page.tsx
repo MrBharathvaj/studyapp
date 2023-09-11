@@ -2,9 +2,9 @@ import React from 'react'
 import styles from "./page.module.css"
 import Image from 'next/image'
 import about from "../../public/about.jpg"
-import Button from '@/components/Button/Button'
+import Button from '../../components/Button/Button'
 
-const About = () => {
+const About: React.FC = () => {
     return (
         <div className={styles.container}>
             <div className={styles.imgcontainer}>
@@ -41,4 +41,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./footer.module.css"
 import Image from 'next/image'
 import Link from 'next/link'
-const Footer = () => {
+const Footer: React.FC = () => {
     return (
         <div className={styles.container}>
             <div>&copy; 2023 Bharathvaj. All rights reserved.</div>
